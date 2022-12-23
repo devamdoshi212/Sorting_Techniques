@@ -1,7 +1,6 @@
 #include<bits/stdc++.h>
 using namespace std;
 //array sorted in ascending , time complexity O(n)<t<O(n^2)
-//we can use only for array,not for linkedlist
 //we don't need flag variable bcoz it is by default adaptive
 void insertionsort(int a[],int n)
 {
