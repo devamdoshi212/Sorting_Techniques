@@ -1,6 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 //array sorted in ascending , time complexity O(n)<t<O(n^2)
+//we get maximum value in first pass
 void bubblesort(int a[],int n)
 {
     int flag,temp; //flag var. used for if array already sorted than break and come out

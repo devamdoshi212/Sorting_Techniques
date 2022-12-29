@@ -2,6 +2,7 @@
 using namespace std;
 //it is not adaptive ,not stable.
 //minimum swaps,time complexity =O(n^2)
+//we get minimum value in first pass
 void selectionsort(int a[],int n)
 {
     int i,j,k,temp;
